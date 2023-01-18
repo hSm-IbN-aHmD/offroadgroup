@@ -11426,6 +11426,64 @@ textarea.form-control {
   background-size: cover;
   overflow: hidden;
 }
+/* .Modern-Slider .item .img-fill {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+}
+
+.Modern-Slider .item-1 .img-fill {
+	background-image: url(../imgs/bg1.jpg);
+}
+
+.Modern-Slider .item-2 .img-fill {
+	background-image: url(../imgs/bg2.jpg);
+} */
+
+/* .Modern-Slider .item-3 .img-fill {
+	background-image: url(../imgs/header1.jpeg);
+}
+
+.Modern-Slider .NextArrow{
+  position:absolute;
+  top:50%;
+  right:30px;
+  border:0 none;
+  background-color: transparent;
+  text-align:center;
+  font-size: 36px;
+  font-family: 'FontAwesome';
+  color:#FFF;
+  z-index:5;
+  outline: none;
+  cursor: pointer;
+} */
+
+/* .Modern-Slider .NextArrow:before{
+  content:'\f105';
+}
+
+.Modern-Slider .PrevArrow {
+  position:absolute;
+  top:50%;
+  left:30px;
+  border:0 none;
+  background-color: transparent;
+  text-align:center;
+  font-size: 36px;
+  font-family: 'FontAwesome';
+  color:#FFF;
+  z-index:5;
+  outline: none;
+  cursor: pointer;
+}
+
+.Modern-Slider .PrevArrow:before{
+  content:'\f104';
+} */
 
 .header .overlay {
   position: absolute;
