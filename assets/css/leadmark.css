@@ -11426,6 +11426,50 @@ textarea.form-control {
   background-size: cover;
   overflow: hidden;
 }
+
+.pestheader {
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  background: url(../imgs/service1.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.birdheader {
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  background: url(../imgs/service2.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.contractheader {
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  background: url(../imgs/service3-crp.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.cleaningheader {
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  background: url(../imgs/service4.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+.disinfectionheader {
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  background: url(../imgs/service5.jpg) no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
 /* .Modern-Slider .item .img-fill {
 	background-size: cover;
 	background-position: center center;
@@ -11681,7 +11725,7 @@ textarea.form-control {
 
 .section.has-img-bg {
   position: relative;
-  background: url(../imgs/header3.jpeg) no-repeat center top fixed;
+  background: url(../imgs/blk_img.jpg) no-repeat center top fixed;
   background-size: cover;
   color: #fff;
 }
