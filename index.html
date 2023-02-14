@@ -23,21 +23,42 @@
 	<div class="sub-header">
       <div class="container">
         <div class="row">
-          <div class="col-md-8 col-xs-12">
+          <div class="col-md-8">
             <ul class="left-info">
-            <li><a href="#"><i></i></a></li>
-            <li><a href="#"><i></i></a></li>
+							<!-- <li><a href="#"><i></i></a></li> -->
+							<!-- <li><a href="#"><i></i></a></li> -->
             </ul>
           </div>
           <div class="col-md-4">
             <ul class="right-icons">
-              <li><a href=""><img style="width: 100px;" src="assets/imgs/npma_logo.png"></a></li>
+              <li><a href=""><img style="width: 90px;" src="assets/imgs/npma_logo.png"></a></li>
 							<li><a href="#"><i></i></a></li>
 							<li><a href="#"><i></i></a></li>
-              <li><a href=""><img style="width: 100px;" src="assets/imgs/ORG LOGO with name .png"></a></li>
 							<li><a href="#"><i></i></a></li>
 							<li><a href="#"><i></i></a></li>
-							<li><a href=""><img style="width: 100px;" src="assets/imgs/ORG LOGO with name .png"></a></li>
+							<li><a href="#"><i></i></a></li>
+							<li><a href="#"><i></i></a></li>
+							<li><a href="#"><i></i></a></li>
+							<li><a href="#"><i></i></a></li>
+							<li><a href="#"><i></i></a></li>
+              <li><a href=""><img style="width: 85px;" src="assets/imgs/iso b&g.png"></a></li>
+							<!-- <li><a href=""><img style="width: 40px;" src="assets/imgs/iso_blue.png"></a></li> -->
+								<li><a href="#"><i></i></a></li>
+								<li><a href="#"><i></i></a></li>
+								<li><a href="#"><i></i></a></li>
+							<li><a href=""><img style="width: 40px;" src="assets/imgs/iso_blue.png"></a></li>
+							<li><a href="#"><i></i></a></li>
+							<li><a href="#"><i></i></a></li>
+							<li><a href="#"><i></i></a></li>
+							<li><a href="#"><i></i></a></li>
+							<li><a href="#"><i></i></a></li>
+							<li><a href="#"><i></i></a></li>
+							<li><a href="#"><i></i></a></li>
+							<li><a href="#"><i></i></a></li>
+							<li><a href="#"><i></i></a></li>
+							<li><a href="#"><i></i></a></li>
+							<li><a href="#"><i></i></a></li>
+							<li><a href="#"><i></i></a></li>
               <!-- <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
             </ul>
           </div>
@@ -51,7 +72,7 @@
             <a class="navbar-brand" href="#">
 							<figure>
                 <img style="width: 200px;" src="assets/imgs/ORG LOGO with name .png">
-								<figcaption class="nav-link" href="#" style="margin: 0;padding-left: 0px; text-align: left;">Since 2002</figcaption>
+								<figcaption class="nav-link" href="#" style="margin: 0;padding-left: 0px; text-align: left; color: #000000;">Since 2002</figcaption>
 </figure>
             </a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,10 +81,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#service">Our Service</a>
+                        <a class="nav-link" style="color: #000000;" href="#service">Our Service</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About Us</a>
+                        <a class="nav-link" style="color: #000000;" href="#about">About Us</a>
                     </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -72,7 +93,7 @@
                         <a class="nav-link" href="#blog">Blog</a>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link"  style="color: #000000;" href="#contact">Contact</a>
                     </li>
                     <!-- <li class="nav-item">
                         <a href="components.html" class="ml-4 nav-link btn btn-primary btn-sm rounded">Components</a>
@@ -264,7 +285,7 @@
 											<img src="assets/imgs/service3-crp.jpeg" alt="" class="card-img-top w-100">
 											<div class="card-body">
 													<h6 class="card-title">Contract Works</h6>
-													<p>Our cleaning services are tailored to your daily needs, and we are one of the best cleaning companies, if you are looking for commercial cleaning and residential cleaning we are here to provide you with high-quality cleaning services.</p>
+													<p>Our contracting works are mainly as per the requirement of the facility.  We offer various type of industrial and residential fixing and maintenance works. We do supply and installation of any fixers like nets, sunshades etc.</p>
 													<a href="contract_works.html" class="small text-muted"><b>Read more</b></a>
 											</div>
 									</div>
@@ -659,7 +680,7 @@
 
                             </div>
                             <div class="form-group col-12 mb-0">
-                                <button type="submit" class="btn btn-primary rounded w-md mt-3">Send</button>
+                                <button type="submit" class="btn btn-primary rounded w-md mt-3" onclick="sendEmail()">Send</button>
                             </div>
                         </div>
                     </form>
@@ -674,6 +695,22 @@
     </section>
 
 	<!-- core  -->
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+<input type="button" value="Send Email" onclick="sendEmail()">
+<script>
+function sendEmail() {
+	Email.send({
+    SecureToken : "<your generated token>",
+    To : 'aahashim11@gmail.com',
+    From : "sender@example.com",
+    Subject : "Test Email",
+    Body : "<html><h2>Header</h2><strong>Bold text</strong><br></br><em>Italic</em></html>"
+    }).then(
+        message => alert("mail sent successfully")
+    );
+}
+</script>
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 

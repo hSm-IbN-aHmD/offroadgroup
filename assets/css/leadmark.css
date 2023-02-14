@@ -4594,7 +4594,7 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
+  /* padding-top: 0.3125rem; */
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
@@ -11214,7 +11214,7 @@ textarea.form-control {
 }
 
 .navbar .nav-link {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
 }
 
@@ -11429,7 +11429,7 @@ textarea.form-control {
 
 .pestheader {
   position: relative;
-  height: 100vh;
+  height: 70vh;
   min-height: 500px;
   background: url(../imgs/service1.jpeg) no-repeat center center fixed;
   background-size: cover;
@@ -11438,7 +11438,7 @@ textarea.form-control {
 
 .birdheader {
   position: relative;
-  height: 100vh;
+  height: 70vh;
   min-height: 500px;
   background: url(../imgs/service2.jpeg) no-repeat center center fixed;
   background-size: cover;
@@ -11447,16 +11447,16 @@ textarea.form-control {
 
 .contractheader {
   position: relative;
-  height: 100vh;
+  height: 70vh;
   min-height: 500px;
-  background: url(../imgs/service3-crp.jpeg) no-repeat center center fixed;
+  background: url(../imgs/contract.jpg) no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
 }
 
 .cleaningheader {
   position: relative;
-  height: 100vh;
+  height: 70vh;
   min-height: 500px;
   background: url(../imgs/service4.jpeg) no-repeat center center fixed;
   background-size: cover;
@@ -11464,7 +11464,7 @@ textarea.form-control {
 }
 .disinfectionheader {
   position: relative;
-  height: 100vh;
+  height: 70vh;
   min-height: 500px;
   background: url(../imgs/service5.jpg) no-repeat center center fixed;
   background-size: cover;
